@@ -103,4 +103,4 @@ var ketQua;
 
 ketQua = parseInt(soHangChuc) + soHangDV;
 
-console.log(ketQua);
+console.log('Kết quả hai số là: ', ketQua);
