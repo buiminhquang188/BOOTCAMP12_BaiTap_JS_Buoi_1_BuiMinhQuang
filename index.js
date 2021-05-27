@@ -96,11 +96,11 @@ console.log('Chu vi hình chữ nhật là: ', chuVi);
  * Kết quả tổng hai số
  */
 console.log("============================BÀI 5============================");
-var haiChuSo = 23;
+var haiChuSo = 22;
 var soHangDV = haiChuSo % 10;
 var soHangChuc = haiChuSo / 10;
 var ketQua;
 
-ketQua = parseInt(soHangChuc) + soHangDV;
+ketQua = parseInt(soHangChuc) + Math.abs(soHangDV);
 
 console.log('Kết quả hai số là: ', ketQua);
